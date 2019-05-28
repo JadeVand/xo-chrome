@@ -1,0 +1,87 @@
+body {
+  background-color: #252526;
+  padding: 0;
+  margin: 0;
+}
+
+.game {
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 200px;
+  height: 200px;
+}
+
+.hud {
+  top: 0%;
+  width: 100%;
+  color: #e3e3e3;
+  margin: auto;
+  font-family: Calibri, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10%;
+}
+.hudbottom{
+  bottom: 0%;
+  width: 100%;
+  color: #e3e3e3;
+  margin: auto;
+  font-family: Calibri, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.xoboard {
+  width: 100%;
+  height: 100%;
+}
+
+.xofieldcol {
+  width: 33.3%;
+  height: 33.3%;
+  float: left;
+}
+
+.xofieldtile {
+  background-color: #34495d;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid #1a3450;
+  border-bottom: 1px solid #1a3450;
+}
+
+.xofieldtile:hover {
+  background-color: #2b4b68;
+}
+
+.tileCross {
+  margin: auto;
+  margin-top: 0.65%;
+  width: 3px;
+  height: 100%;
+  background-color: #2ecc71;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-radius: 1.5px;
+}
+
+.tileCross:before {
+  background-color: inherit;
+  border-radius: inherit;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.tileCircle {
+  height: inherit;
+  width: inherit;
+  border: 5px solid #fd8987;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
