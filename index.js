@@ -1,5 +1,6 @@
-window.addEventListener('DOMContentLoaded', (event) => {
 
+window.addEventListener('DOMContentLoaded', (event) => {
+//
 
     function move(yposition, xposition, xo) {
         //120 == x
